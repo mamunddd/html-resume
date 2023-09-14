@@ -1,15 +1,15 @@
-*{
+* {
   margin-top: 0%;
 }
-.main_t{
+.main_t {
   padding-left: 10px;
   margin: 0px;
   max-width: 800px;
   margin: auto;
   /*margin-right: -10px;
     margin-left: 14%;*/
-    width: 99%;
-    background-color: #e3edd8;
+  width: 99%;
+  background-color: #e3edd8;
 }
 div {
   border-radius: 5px;
@@ -19,7 +19,7 @@ div {
   padding: 3px;
   margin: 0px;
   font-size: 14px;
-  background-color: #EDEDED;
+  background-color: #d1ddd3;
 }
 
 .flex-container ul {
@@ -31,7 +31,7 @@ div {
 }
 .flex-container {
   display: flex;
-  background-color: #EDEDED;
+  background-color: #d1ddd3;
   top: 0;
 }
 
@@ -74,7 +74,7 @@ h3 {
   font-weight: bolder;
 }
 table {
-  width: 100%;
+  width: 99%;
 }
 
 table {
@@ -91,7 +91,7 @@ td {
   font-size: 15px;
   text-align: center;
   height: 60px;
-  background-color: #a8c0be;
+  background-color: #d1ddd3;
 }
 
 .footer p {
