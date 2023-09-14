@@ -1,104 +1,117 @@
+:root {
+  --white: #ffffff;
+  --black: #111111;
+  --top-foot: #d1ddd3;
+  --bg: #e3edd8;
+  --orange: #e88741;
+}
+
+/* reset code */
 * {
-  margin-top: 0%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.main_t {
-  padding-left: 10px;
-  padding-right: 5px;
-  margin: 0px;
-  max-width: 800px;
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--orange);
+}
+
+li {
+  list-style: none;
+}
+
+table {
+  width: 100%;
+}
+
+body {
+  color: var(--black);
+  font-size: 1.1rem;
+}
+
+.container {
+  max-width: 1280px;
   margin: auto;
-  /*margin-right: -10px;
-    margin-left: 14%;*/
-  width: 99%;
-  background-color: #e3edd8;
 }
-div {
-  border-radius: 5px;
+
+header {
+  background-color: var(--top-foot);
+  padding: 0.5rem 1rem;
 }
-.top {
+header h1 {
+  font-size: 2rem;
   text-align: center;
-  padding: 3px;
-  margin: 0px;
-  font-size: 14px;
-  background-color: #d1ddd3;
+  padding-top: 1rem;
 }
 
-.flex-container ul {
-  list-style: none;
-}
-
-.flex-container li {
-  list-style: none;
-}
-.flex-container {
+.info-profile ul li {
   display: flex;
-  background-color: #d1ddd3;
-  top: 0;
+  align-items: center;
+  gap: 1rem;
+  font-style: 1rem;
+}
+.info-profile ul li i {
+  color: var(--orange);
 }
 
-.flex-container > div {
-  margin: 0px;
-  padding: 0px;
-  font-size: 14px;
+.info-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-.items {
-  flex: 80%;
-}
-
-.logo {
-  flex: 20%;
-}
-
-.logo img {
+.info-profile .profile {
   width: 140px;
   height: 140px;
-  outline: 1px solid #e88741;
-  border-radius: 25%;
-}
-.sing img {
-  width: 160px;
-  height: 60px;
+  border: 1px solid var(--orange);
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-a:hover {
-  color: #e88741;
+main {
+  background-color: var(--bg);
+  padding: 0.5rem 1rem;
 }
 
-.active {
-  color: #e88741 !important;
+main section {
+  margin: 2rem 0;
 }
 
-h3 {
-  font-size: 16px;
+main section h3 {
+  font-size: 1.5rem;
   text-decoration: underline;
-  font-weight: bolder;
-}
-table {
-  width: 99%;
+  margin-bottom: 0.5rem;
 }
 
-table {
-  border: 1px dashed black;
-}
-td {
-  padding: 2px;
-  border: 1px solid #e88741;
+.technical_skills ul li {
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
-/* Main body here */
+.educational_qualifications table,
+.educational_qualifications th,
+.educational_qualifications td {
+  border: 1px solid var(--orange);
+  border-collapse: collapse;
+}
 
-.footer {
-  font-size: 15px;
+.educational_qualifications th,
+.educational_qualifications td {
+  padding: 0.2rem 0.5rem;
+}
+.declaration img {
+  max-width: 180px;
+}
+
+footer {
+  background-color: var(--top-foot);
+  padding: 1rem;
   text-align: center;
-  height: 60px;
-  background-color: #d1ddd3;
-}
-
-.footer p {
-  padding-top: 20px;
-}
-
-.footer p:hover {
-  color: #e88741;
 }
